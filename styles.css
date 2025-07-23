@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #000;
+    background: linear-gradient(to bottom, #2c3e50, #8e44ad);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +16,10 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 15px;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -99,12 +99,10 @@ input[type="checkbox"]:checked {
 }
 
 input[type="checkbox"]:checked::after {
-    content: '';
+    content: '\2713'; /* Checkmark symbol */
     position: absolute;
-    width: 8px;
-    height: 8px;
-    background-color: white;
-    border-radius: 50%;
+    color: white;
+    font-size: 12px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

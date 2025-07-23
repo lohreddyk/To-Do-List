@@ -16,10 +16,10 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 10px;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -87,15 +87,15 @@ input[type="checkbox"] {
     appearance: none;
     width: 18px;
     height: 18px;
-    border: 2px solid #ccc;
+    border: 2px solid #ff4d4d;
     border-radius: 50%;
     position: relative;
     cursor: pointer;
+    background-color: #fff;
 }
 
 input[type="checkbox"]:checked {
     background-color: #ff4d4d;
-    border-color: #ff4d4d;
 }
 
 input[type="checkbox"]:checked::after {
